@@ -1,20 +1,10 @@
-<!--footer {
-    position: ; 
-    bottom: 0px; 
-    width: 99%;
-    height: 30px; 
-    background-color: rgb(223, 56, 51);
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
     color: white;
     text-align: center;
-  }
--->
-  
-footer{
-	position: fixed;
-	bottom: 0;
 }
 
-@media (max-height:800px){
-	footer { position: static; }
-	header { padding-top:40px; }
-}
