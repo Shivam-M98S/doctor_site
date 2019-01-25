@@ -1,13 +1,19 @@
 ul {
     list-style-type: none;
+    top: 0;
+    width: 100%;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: rgb(223, 56, 51);
 }
 
 li {
     float: left;
+}
+
+.navbar-right {
+    float: right;
 }
 
 li a {
@@ -25,4 +31,3 @@ li a:hover:not(.active) {
 .active {
     background-color: rgb(223, 56, 51);
 }
-
